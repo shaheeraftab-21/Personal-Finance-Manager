@@ -11,7 +11,8 @@ A personal finance dashboard that turns raw bank transactions into a real financ
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
 [![Anthropic Claude](https://img.shields.io/badge/Claude_API-D97757?logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_App-FF4B4B?logo=streamlit&logoColor=white)](https://shaheer-personal-finance-manager.streamlit.app/)
+
+**[▶️ Live demo: shaheer-personal-finance-manager.streamlit.app](https://shaheer-personal-finance-manager.streamlit.app/)**
 
 </div>
 
