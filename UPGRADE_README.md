@@ -178,4 +178,4 @@ Then install the Python wrapper: `pip install pytesseract Pillow`
 
 ---
 
-*Made with ❤️ by Zain, Hunain & Shaheer*
+*Made with ❤️ by Shaheer, Hunain & Zain*
