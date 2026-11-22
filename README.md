@@ -11,6 +11,7 @@ A personal finance dashboard that turns raw bank transactions into a real financ
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
 [![Anthropic Claude](https://img.shields.io/badge/Claude_API-D97757?logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_App-FF4B4B?logo=streamlit&logoColor=white)](https://shaheer-personal-finance-manager.streamlit.app/)
 
 </div>
 
@@ -120,7 +121,7 @@ streamlit run app.py
 ├── app.py                   # Original coursework version (preserved, unmodified)
 ├── ai_utils.py               # Original ML utilities (preserved, unmodified)
 ├── requirements_enhanced.txt # Full dependency list for app_enhanced.py
-├── requirements.txt          # Minimal dependency list for app.py
+├── requirements.txt          # Dependencies (used for deployment)
 ├── sample_transactions.csv   # Bundled sample dataset
 ├── test_transactions.csv     # Extra test dataset
 ├── create_excel.py           # Builds a sample Excel statement for upload testing
@@ -132,7 +133,9 @@ streamlit run app.py
 
 ## Data Privacy
 
-All processing happens locally in your own Streamlit session — transaction data is never sent anywhere except to the AI provider you've explicitly configured a key for (and only for the specific chat message or receipt image you submit).
+When you run the app locally, all processing happens in your own Streamlit session — transaction data is never sent anywhere except to the AI provider you've explicitly configured a key for (and only for the specific chat message or receipt image you submit).
+
+On the hosted live demo, please use the built-in sample or demo data rather than uploading real bank statements.
 
 ## License
 
